@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react'
-import Heading from './Heading'
+import { Main } from './Main'
 
-describe('<Heading/>', () => {
+describe('<Main />', () => {
   it('should render the heading', () => {
-    render(<Heading />)
+    render(<Main />)
 
     expect(
       screen.getByRole('heading', { name: /boilerplate v2/i })

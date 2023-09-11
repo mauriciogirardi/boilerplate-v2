@@ -1,9 +1,9 @@
-import Heading from '@/components/heading/Heading'
+import { Main } from '@/components/main/Main'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Heading />
+    <main className="bg-blue h-screen flex justify-center center items-center px-4">
+      <Main />
     </main>
   )
 }
