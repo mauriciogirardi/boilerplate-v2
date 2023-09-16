@@ -9,7 +9,7 @@ O **boilerplate** é uma base sólida e altamente configurada para iniciar proje
 
 #### Tecnologias Principais:
 
-<div style="display:flex;gap:20px;align-item:center;justify-content:center; margin:40px 0;width:100%">
+<div align="center" style="display:flex;gap:20px;align-item:center;justify-content:center; margin:40px 0;width:100%">
   <img src=".github/img/next-js.svg" width="100"/>
   <img src=".github/img/ts.svg" width="50"/>
   <img src=".github/img/eslint.svg" width="50"/>
