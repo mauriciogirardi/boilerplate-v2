@@ -1,5 +1,7 @@
 <center>
   <h1 style="color:grey;font-style: italic;">Boilerplate V2.</h1>
+
+ <img src=".github/img/hero-illustration.svg" width="200"/>
 </center>
 
 #### Descrição:
@@ -7,6 +9,17 @@
 O **boilerplate** é uma base sólida e altamente configurada para iniciar projetos de front-end de forma eficiente e consistente. Ele combina uma variedade de ferramentas e tecnologias populares para acelerar o desenvolvimento e manter a qualidade do código.
 
 #### Tecnologias Principais:
+
+<center>
+  <div style="display:flex;gap:20px;align-item:center;justify-content:center; margin:40px 0;">
+    <img src=".github/img/next-js.svg" width="100"/>
+    <img src=".github/img/ts.svg" width="50"/>
+    <img src=".github/img/eslint.svg" width="50"/>
+    <img src=".github/img/jest.svg" width="50"/>
+    <img src=".github/img/lintstagedrc.svg" width="50"/>
+    <img src=".github/img/prettier.svg" width="50"/>
+  </div>
+</center>
 
 - **[NEXT.JS v13.x](https://nextjs.org/, 'Site do Next.js'):** Uma estrutura React altamente otimizada para criar aplicativos front-end eficientes e renderizados no servidor.
 
@@ -26,10 +39,24 @@ O **boilerplate** é uma base sólida e altamente configurada para iniciar proje
 
 - **[PLOP](https://plopjs.com/documentation/#installation, 'Site do Plop'):** Uma ferramenta de geração de código para automatizar a criação de componentes, páginas e outros artefatos de código repetitivos.
 
+- **[TYPESCRIPT](https://www.typescriptlang.org/, 'Site do TypeScript'):** é uma escolha popular para desenvolvedores que desejam escrever código JavaScript mais seguro, escalável e de fácil manutenção, especialmente em projetos complexos e de grande escala.
+
+#### Como clonar o projeto e rodar na usa maquina
+
+```bash
+  git clone https://github.com/mauriciogirardi/boilerplate-v2.git
+
+  cd boilerplate-v2
+
+  npm install
+
+  npm start
+```
+
 #### Como começar um projeto usando este boilerplate
 
 ```bash
-
+  npx create-next-app -e https://github.com/mauriciogirardi/boilerplate-v2
 ```
 
 #### Como gerar components
@@ -37,7 +64,7 @@ O **boilerplate** é uma base sólida e altamente configurada para iniciar proje
 ```bash
   npm run generator
 
-  What is your component name?: Input
+  # What is your component name?: Input
 ```
 
 ![Alt text](.github/img/image.png)
