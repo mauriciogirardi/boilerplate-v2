@@ -7,3 +7,10 @@ export default {
 } as Meta
 
 export const Default: StoryObj = {}
+
+export const Basic: StoryObj<typeof Main> = {
+  args: {
+    title: 'title basic',
+    description: 'description basic'
+  }
+}

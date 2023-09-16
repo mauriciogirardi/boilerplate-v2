@@ -4,7 +4,10 @@ const config: StorybookConfig = {
   staticDirs: ['../public'],
   stories: ['../src/components/**/*.stories.tsx'],
   addons: ['@storybook/addon-essentials'],
-  framework: '@storybook/nextjs',
+  framework: {
+    name: '@storybook/nextjs',
+    options: {}
+  },
   docs: {
     autodocs: true
   },
