@@ -1,8 +1,7 @@
-<center>
+<div align="center">
   <h1 style="color:grey;font-style: italic;">Boilerplate V2.</h1>
-
- <img src=".github/img/hero-illustration.svg" width="200"/>
-</center>
+  <img src=".github/img/hero-illustration.svg" width="200"/>
+</div>
 
 #### Descrição:
 
@@ -10,16 +9,14 @@ O **boilerplate** é uma base sólida e altamente configurada para iniciar proje
 
 #### Tecnologias Principais:
 
-<center>
-  <div style="display:flex;gap:20px;align-item:center;justify-content:center; margin:40px 0;">
-    <img src=".github/img/next-js.svg" width="100"/>
-    <img src=".github/img/ts.svg" width="50"/>
-    <img src=".github/img/eslint.svg" width="50"/>
-    <img src=".github/img/jest.svg" width="50"/>
-    <img src=".github/img/lintstagedrc.svg" width="50"/>
-    <img src=".github/img/prettier.svg" width="50"/>
-  </div>
-</center>
+<div style="display:flex;gap:20px;align-item:center;justify-content:center; margin:40px 0;width:100%">
+  <img src=".github/img/next-js.svg" width="100"/>
+  <img src=".github/img/ts.svg" width="50"/>
+  <img src=".github/img/eslint.svg" width="50"/>
+  <img src=".github/img/jest.svg" width="50"/>
+  <img src=".github/img/lintstagedrc.svg" width="50"/>
+  <img src=".github/img/prettier.svg" width="50"/>
+</div>
 
 - **[NEXT.JS v13.x](https://nextjs.org/, 'Site do Next.js'):** Uma estrutura React altamente otimizada para criar aplicativos front-end eficientes e renderizados no servidor.
 
