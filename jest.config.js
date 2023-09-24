@@ -8,7 +8,8 @@ module.exports = {
     '!src/styles/**',
     '!src/components/**/*.stories.tsx',
     '!src/lib/registry.tsx',
-    '!src/@types/**'
+    '!src/@types/**',
+    '!src/utils/**'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
@@ -17,6 +18,7 @@ module.exports = {
   },
   moduleNameMapper: {
     '^styled-components':
-      'styled-components/dist/styled-components.browser.cjs.js'
+      'styled-components/dist/styled-components.browser.cjs.js',
+    '^@/(.*)$': '<rootDir>/src/$1'
   }
 }
