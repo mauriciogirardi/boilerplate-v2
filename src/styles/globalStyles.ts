@@ -33,7 +33,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   ${({ theme }) => css`
-    html: {
+    html {
       font-size: 62.5%; // 1rem = 10px 10/16 = 62.5%
     }
 
