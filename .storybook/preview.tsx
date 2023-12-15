@@ -1,6 +1,6 @@
 import React from 'react'
-import { GlobalStyles } from '../src/styles/globalStyles'
 import { ThemeProvider } from 'styled-components'
+import { GlobalStyles } from '../src/styles/global-styles'
 import { themes } from '../src/styles/themes'
 
 export const decorators = [

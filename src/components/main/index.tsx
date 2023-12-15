@@ -1,6 +1,6 @@
 'use client'
 
-import * as S from './Main.styles'
+import * as S from './main.styles'
 
 export function Main({
   title = 'Boilerplate V2',

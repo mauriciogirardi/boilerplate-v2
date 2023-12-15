@@ -19,12 +19,12 @@ export const Logo = styled.img`
 `
 
 export const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 5rem;
 `
 
 export const Description = styled.span`
   margin-top: 1rem;
-  font-size: 0.9rem;
+  font-size: 2rem;
   text-align: center;
 `
 export const Illustration = styled.img`

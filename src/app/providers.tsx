@@ -1,9 +1,10 @@
 'use client'
 
-import { GlobalStyles } from '@/styles/globalStyles'
-import { themes } from '@/styles/themes'
 import { PropsWithChildren } from 'react'
+
 import { ThemeProvider } from 'styled-components'
+import { GlobalStyles } from '@/styles/global-styles'
+import { themes } from '@/styles/themes'
 
 export function Providers({ children }: PropsWithChildren) {
   return (

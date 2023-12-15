@@ -1,9 +1,7 @@
-import StyledComponentsRegistry from '@/lib/registry'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { Providers } from './providers'
 
-const inter = Inter({ subsets: ['latin'] })
+import { Providers } from './providers'
+import StyledComponentsRegistry from '@/lib/registry'
 
 export const metadata: Metadata = {
   title: 'Boilerplate V2',
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
+      <body>
         <StyledComponentsRegistry>
           <Providers>{children}</Providers>
         </StyledComponentsRegistry>

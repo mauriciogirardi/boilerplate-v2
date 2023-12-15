@@ -1,9 +1,5 @@
-import { Main } from '@/components/main/Main'
+import { Main } from '@/components/main'
 
 export default function Home() {
-  return (
-    <main className="bg-blue h-screen flex justify-center center items-center px-4">
-      <Main />
-    </main>
-  )
+  return <Main />
 }
