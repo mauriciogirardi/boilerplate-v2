@@ -69,5 +69,6 @@ The **boilerplate** is a solid and highly configured foundation for starting fro
 </br>
 
 ---
+[MIT License](LICENSE)
 
 Create with :heart: by **[Mauricio Girardi](https://www.linkedin.com/in/mauricio-girardi/, 'Site do linkedin')**
